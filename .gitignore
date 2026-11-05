@@ -1,0 +1,23 @@
+# 构建产物
+build/
+out/
+*.apk
+*.idsig
+*.aab
+
+# 密钥——绝对不许进仓库
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# IDE
+.idea/
+*.iml
+.gradle/
+local.properties
+.DS_Store
+
+# 工具链二进制（体积大，README 里有下载地址）
+tools/*.jar
+tools/android.jar

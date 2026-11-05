@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+android:versionCode="20"
+    android:versionName="0.726"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="com.mimo.datefix"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="30"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_MEDIA"/>
+    <application
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+        android:label="影像日期修复"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name="com.mimo.datefix.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

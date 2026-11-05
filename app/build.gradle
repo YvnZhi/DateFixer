@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.mimo.datefix"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 20
+        versionName "0.726"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // 签名请自备 keystore（勿将密钥文件提交进仓库）
+            // signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+// 零第三方依赖：仅使用 Android 框架 API
