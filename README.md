@@ -1,6 +1,6 @@
 # DateFixer · 影像日期修复
 
-一款免 root 的 Android 图片/视频文件日期修复工具——把被迁移、复制、同步刷乱的文件「修改时间」拨回真正的拍摄/创建时间。
+一款免 root 的 Android 图片/视频文件日期修复工具——把被迁移、复制、同步刷乱的文件「修改时间」拨回真正的拍摄/创建时间。整个库都是ai写的，实际上我搞这个是因为每次备份真的会乱日期，而我之前用的那个不能修复名字是时间戳的，所以有了这个。我用着是没什么大问题。
 
 > English summary: A rootless Android app that restores the real "modified time" of photos/videos whose timestamps were ruined by migration, copying or syncing. UI and docs are in Chinese. Licensed under MIT.
 
